@@ -80,8 +80,8 @@ module user_domain import user_pkg::*; import croc_pkg::*; #(
     .idx_o            ( user_idx                  ),
     .dec_valid_o      (),
     .dec_error_o      (),
-    .en_default_idx_i ( 1'b1      ),
-    .default_idx_i    ( UserError )
+    .en_default_idx_i ( 1'b1                      ),
+    .default_idx_i    ( $bits(user_idx)'(UserError) )
   );
 
   obi_demux #(

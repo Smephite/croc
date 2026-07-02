@@ -14,6 +14,7 @@ dependencies:
   tech_cells_generic:   { git: "https://github.com/pulp-platform/tech_cells_generic.git",  version: 0.2.13 }
   apb:                  { git: "https://github.com/pulp-platform/apb.git",                 version: 0.2.4  }
   obi:                  { git: "https://github.com/pulp-platform/obi.git",                 version: 0.1.7  }
+  axi:                  { git: "https://github.com/pulp-platform/axi.git",                 version: 0.39.1 }
   obi_peripherals:      { git: "https://github.com/pulp-platform/obi_peripherals.git",     rev: 21ee04d    } # UART
   idma:                 { git: "https://github.com/pulp-platform/iDMA.git",                version: 0.6.5  } # croc adds rw_obi backend in rtl/idma
   cve2:                 { path: "rtl/cve2" } # vendored: upstream CVE2 has no Bender.yml
