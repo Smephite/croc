@@ -307,7 +307,7 @@
 ../rtl/idma/idma_rw_obi.sv
 ../rtl/croc_idma.sv
 ../rtl/core_wrap.sv
-../rtl/bootrom/bootrom.sv
+../rtl/bootrom/croc_bootrom.sv
 ../rtl/soc_ctrl/soc_ctrl_regs.sv
 ../rtl/gpio/gpio_reg_top.sv
 ../rtl/gpio/gpio.sv
